@@ -1,0 +1,25 @@
+<?php
+
+// Returns whether a user is an admin
+function verify_admin($claims_obj): bool {
+    // example:
+    // return isset($claims_obj->roles) && in_array('admin', $claims_obj->roles);
+    return false;
+}
+
+return [
+    // OpenID Connect
+    'oidc_provider' => 'https://id.provider.com',
+    // 'oidc_id' => 'ClientIDHere',
+    // 'oidc_secret' => 'ClientSecretHere',
+    // 'oidc_issuer' => 'https://id.provider.com',
+
+    // Database
+    'db_host' => 'DbHostHere',
+    'db_table' => 'DbTableHere',
+    'db_user' => 'DbUsernameHere',
+    'db_pass' => 'DbPasswordHere',
+
+    // cors
+    'cors_allowed_origins' => ['https://foo.bar'],
+];

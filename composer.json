@@ -1,0 +1,14 @@
+{
+    "name": "viakunst/json-history-storage",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Jasper Weyne"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.0",
+        "jumbojett/openid-connect-php": "^0.9.2"
+    }
+}
